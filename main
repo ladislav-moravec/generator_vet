@@ -1,0 +1,7 @@
+from generator_vet import GeneratorVet
+
+# Vytvoříme instanci
+generator = GeneratorVet()
+# Vygenerujeme 10 vět
+for i in range(10):
+    print(generator.generuj())
